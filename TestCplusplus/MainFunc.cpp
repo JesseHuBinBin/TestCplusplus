@@ -10,8 +10,6 @@
 	note:       &note&
 *********************************************************************/
 
-#include <iostream>
-using namespace std;
 
 //头文件的引用
 #include "MainFunc.h"
@@ -20,7 +18,11 @@ using namespace std;
 #include "DestructionFunc.h"
 #include "StaticMem.h"
 #include "CopyConstructionFunc.h"
+#include "FriendFunc.h"
 //头文件的引用
+
+#include <iostream>
+using namespace std;
 
 int main()
 {
@@ -30,8 +32,8 @@ int main()
 	//mainMeThod.lgzhs();//类构造函数
 	//mainMeThod.DestructionFuc();//类析构函数
 	//mainMeThod.MainStaticMember();
-	mainMeThod.MainCopyConstructionFunc();
-	//system("pause");
+	//mainMeThod.MainCopyConstructionFunc();
+	mainMeThod.MainFriendFunc();
 	return 0;
 }
 
@@ -136,6 +138,20 @@ void MainMethod::MainCopyConstructionFunc()
 	CopyConstruction cc1 = cc;
 	display(cc);
 	display(cc1);
+}
+
+//************************************
+// Method:    MainFriendFunc
+// FullName:  MainMethod::MainFriendFunc
+// Access:    public 
+// Returns:   void
+// Qualifier: 友元函数
+//************************************
+void MainMethod::MainFriendFunc() 
+{
+	FriengFunc ff;
+	ff.setWidth(10);
+	printWidth(ff);
 }
 
 

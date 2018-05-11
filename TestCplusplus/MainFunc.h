@@ -9,5 +9,6 @@ public:
 	void MainDestructionFuc();
 	void MainStaticMember();
 	void MainCopyConstructionFunc();
+	void MainFriendFunc();
 };
 
