@@ -30,10 +30,12 @@
 					 {
 					   friend void Print(const INTEGER& obj);//声明友元函数
 					 };
+
 					 void Print (const INTEGER& obj)
 					 {
 					   //函数体
 					 }
+
 					 void main()
 					 {
 					   INTEGER obj;
@@ -43,12 +45,14 @@
 #include "FriendFunc.h"
 #include <iostream>
 using namespace std;
+
+//成员函数的定义
 void FriengFunc::setWidth(double wid) 
 {
 	width = wid;
 }
 
-
+//请注意：printWidth()不是任何类的成员函数
 void printWidth(FriengFunc ff)
 {
 	/*因为printWidth()是FriendFunc的友元函数，他可以直接访问该类的任何成员*/

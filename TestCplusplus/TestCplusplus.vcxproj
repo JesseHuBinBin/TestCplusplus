@@ -149,6 +149,7 @@
     <ClCompile Include="CopyConstructionFunc.cpp" />
     <ClCompile Include="DestructionFunc.cpp" />
     <ClCompile Include="FriendFunc.cpp" />
+    <ClCompile Include="InlineFunc.cpp" />
     <ClCompile Include="MainFunc.cpp" />
     <ClCompile Include="MemberFunc.cpp" />
     <ClCompile Include="ConstructionFunc.cpp" />
