@@ -34,6 +34,8 @@ int main()
 	//mainMeThod.MainStaticMember();
 	//mainMeThod.MainCopyConstructionFunc();
 	mainMeThod.MainFriendFunc();
+
+
 	return 0;
 }
 

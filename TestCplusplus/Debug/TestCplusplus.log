@@ -1,5 +1,10 @@
-﻿  MainFunc.cpp
+﻿  CopyConstructionFunc.cpp
+  DestructionFunc.cpp
   FriendFunc.cpp
+  InlineFunc.cpp
+  MainFunc.cpp
+  MemberFunc.cpp
+  ConstructionFunc.cpp
+  StaticMem.cpp
   正在生成代码...
-  TestCplusplus.vcxproj -> D:\Project\TestCplusplus\Debug\TestCplusplus.exe
-  TestCplusplus.vcxproj -> D:\Project\TestCplusplus\Debug\TestCplusplus.pdb (Partial PDB)
+  TestCplusplus.vcxproj -> D:\GithubDesktop\GitHub\TestCplusplus\Debug\TestCplusplus.exe
