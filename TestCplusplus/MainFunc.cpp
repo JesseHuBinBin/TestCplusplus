@@ -19,6 +19,7 @@
 #include "StaticMem.h"
 #include "CopyConstructionFunc.h"
 #include "FriendFunc.h"
+#include "InlineFunc.h"
 //头文件的引用
 
 #include <iostream>
@@ -31,10 +32,10 @@ int main()
 	//mainMeThod.lcyhs();//类成员函数
 	//mainMeThod.lgzhs();//类构造函数
 	//mainMeThod.DestructionFuc();//类析构函数
-	//mainMeThod.MainStaticMember();
-	//mainMeThod.MainCopyConstructionFunc();
-	mainMeThod.MainFriendFunc();
-
+	//mainMeThod.MainStaticMember();//静态成员函数
+	//mainMeThod.MainCopyConstructionFunc();//拷贝构造函数
+	//mainMeThod.MainFriendFunc();//友元函数
+	mainMeThod.MainInlineFunc();//内联函数
 
 	return 0;
 }
@@ -154,6 +155,19 @@ void MainMethod::MainFriendFunc()
 	FriengFunc ff;
 	ff.setWidth(10);
 	printWidth(ff);
+}
+
+//************************************
+// Method:    MainInlineFunc
+// FullName:  MainMethod::MainInlineFunc
+// Access:    public 
+// Returns:   void
+// Qualifier: 内联函数
+//************************************
+void MainMethod::MainInlineFunc()
+{
+	InLineFunc myInline;
+	cout << myInline.Max(20, 10);
 }
 
 

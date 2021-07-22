@@ -10,5 +10,6 @@ public:
 	void MainStaticMember();
 	void MainCopyConstructionFunc();
 	void MainFriendFunc();
+	void MainInlineFunc();
 };
 
