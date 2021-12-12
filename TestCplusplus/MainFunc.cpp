@@ -35,7 +35,7 @@ int main()
 	//mainMeThod.MainStaticMember();//静态成员函数
 	//mainMeThod.MainCopyConstructionFunc();//拷贝构造函数
 	//mainMeThod.MainFriendFunc();//友元函数
-	mainMeThod.MainInlineFunc();//内联函数
+	//mainMeThod.MainInlineFunc();//内联函数
 
 	return 0;
 }
